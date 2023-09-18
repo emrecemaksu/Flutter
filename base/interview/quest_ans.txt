@@ -1,0 +1,206 @@
+GENERAL Questions
+
+1. Give some examples of application types you can develop with Flutter.
+Do your applicants know that Flutter can be used to build bothiOS and Android mobile apps?
+
+Candidates may also explain that web, Linux, and Mac applications are a few other examples of apps for which developers can use Flutter.
+
+2. Which skills are required to use Flutter?
+Applicants should know that hard skills are essential for using the Flutter framework. They may mention some of the following hard skills when responding to this question:
+
+    -SQL knowledge
+
+    -Knowledge of the Dart programming language
+
+    -Knowledge of the Flutter framework
+
+    -Git knowledge
+
+    -Android mobile development skills
+
+    -iOS mobile development skills
+
+3. Which soft skills are required to use Flutter?
+
+Can your applicants explain that soft skills are also important for Flutter developers? They may mention some examples of critical soft skills, such as problem-solving, communication, teamwork, and creativity, which are all essential for creating apps using Flutter.
+
+4. Explain what Flutter is.
+Flutter is an open-source framework and toolkit developers use to create applications using the Dart programming language. Applicants should also explain that programming in Flutter can be achieved with a single codebase.
+
+5. Name four advantages of using Flutter.
+Here are four advantages of using Flutter that your candidates might mention:
+
+    -Flutter enables effortless development across multiple platforms
+
+    -There’s detailed Flutter documentation available, which developers can refer to
+
+    -It features a handy JIT feature for increasing the development speed and facilitating UI refreshes
+
+    -Developers can have easy access to information from the Flutter community 
+
+6. Why is Flutter unique?
+
+7. Which skills are required to use Flutter?
+
+8. Which soft skills are required to use Flutter?
+
+9. Describe your experience with Flutter.
+
+10. Have you ever encountered any challenges when using Flutter?
+
+11. Describe Flutter’s different build modes.
+
+Related to terms, Definitions and Features Questions
+
+Ask your candidates these 31 Flutter developer interview questions to thoroughly evaluate their knowledge of Flutter-related definitions and features.
+
+1. Explain what Dart is.
+Seasoned Flutter developers should know that Dart is an object-oriented programming language that uses a syntax similar to C. They may also explain that Dart is the programming language that developers use when creating an app using the Flutter framework.
+
+2. Describe what a stateful widget is.
+A stateful widget is a widget that user interactions can change. Applicants should know that this type of widget is dynamic, meaning that its appearance can change when developers send data to it. 
+
+Some applicants may go a step further and give examples of stateful widgets, such as slider, radio, and checkbox.
+
+3. Describe what a stateless widget is.
+A stateless widget is the opposite of a stateful widget in that user interactions cannot change it. Applicants may mention a few examples of stateless widgets, including text, icons, and icon buttons.
+
+4. Explain what a key is in Flutter.
+Can your applicants explain that developers use keys as widgets, elements, and semantic node identifiers? Can they give examples of the other functions of keys, which include modifying widget trees that have stateful widgets?
+
+5. Explain what a ticker is in Flutter.
+Applicants may explain that tickers send signals at constant frequencies to help developers determine the frequency of animation refreshes in Flutter. 
+
+6. Describe what a stateful widget is.
+
+7. Describe what a stateless widget is.
+
+8. Explain what the setState() method does.
+
+9. Outline the Stateful Widget lifecycle.
+
+10. Explain what a Cookbook is.
+
+11. Describe what the Container class does in Flutter.
+
+12. Explain what Dart is.
+
+13. What is the Spread operator?
+
+14. Explain what null operators are in Dart.
+
+15. Explain what asynchronous programming is.
+
+16. Explain what futures are.
+
+17. Describe the Flutter architecture.
+
+18. Explain how runApp() is different from main().
+
+19. Explain what a package is in Flutter.
+
+20. Explain what a plugin is in Flutter.
+
+21. Explain what a key is in Flutter.
+
+22. Explain what mainAxisAlignment is.
+
+23. Explain what crossAxisAlignment is.
+
+24. Explain what a ticker is in Flutter.
+
+25. Explain what streams are.
+
+26. Explain what await does in Flutter.
+
+27. What is a SizedBox?
+
+28. Explain how a SizedBox is different from a Container.
+
+29. Explain what unit tests are.
+
+30. Explain what widget tests are.
+
+31. Explain what integration tests are.
+
+Related to Processes Questions
+
+Ask your candidates some of these 10 interview questions to determine their knowledge of Flutter-related processes.
+
+1. How would you make sure you’re using all features of Flutter?
+Applicants should know that to make sure they’re making full use of all the features of Flutter, they can refer to the Flutter documentation and use different resources available online.
+
+2. How would you make HTTP requests in the Flutter framework?
+Can your applicants explain that developers can make HTTP requests with the HTTP package, which is imported (‘package:http/http.dart’ as http;). Are they aware that making a request will return a <http.Response>?
+
+3. When would you use profile mode in Flutter?
+Developers use profile mode to maintain debugging abilities and analyze an app’s performance while it’s tested. Candidates should know that compiling profile mode requires the flutter run –profile command.
+
+4. When would you use release mode in Flutter?
+Developers use release mode in Flutter to deploy an app, reduce the footprint size, and increase optimization. Applicants should know that release mode features include a faster startup and execution. They might mention that developers can compile release mode using flutter run –release. 
+
+5. When should you use keys in Flutter?
+Can your applicants explain that keys are best used when developers want to preserve a modified widget’s state? They may also explain that developers can use keys to reorganize widget connections and widget trees, particularly when the widget trees contain stateful widgets.
+
+6. Explain when you would use mainAxisAlignment.
+
+7. Explain when you would use crossAxisAlignment.
+
+8. When should you use keys in Flutter?
+
+9. When would you use profile mode in Flutter?
+
+10. When would you use release mode in Flutter?
+
+10 tips for hiring the best Flutter developer – the easy way !!!!
+
+1. Test technical skills with a Flutter skills test
+There’s no easier way to assess a developer’s Flutter framework skills than by administering a Flutter test. This approach should be your first step on the journey toward hiring exceptional talent.
+
+In other words, after you receive candidates’ applications, give them the chance to demonstrate their skills straight away with a Flutter skills test invitation.
+
+Even if you’re a non-technical recruiter, you can assess your applicants’ Flutter skills simply by looking at the test results, which are calculated automatically.
+
+2. Use skills tests to assess soft skills and cognitive ability, too
+Since soft skills and strong cognitive abilities are also essential for Flutter developers, you must assess them in an objective way. As part of the skills assessment, and on top of the Flutter test, you can include other skills tests to assess applicants’ problem-solving, critical thinking, and communication skills.
+
+3. Ask candidates about their developer career
+Are your candidates’ developer careers on an upward trajectory? Have your candidates already learned how to use different frameworks and programming languages throughout their careers?
+
+Find out by asking candidates about their careers and what direction they see themselves moving toward.
+
+Learn whether your candidates’ aspirations match what your organization is offering. For example, if your organization is looking to promote or hire internally, consider whether your applicant has career goals that could match your organization’s requirements down the line.
+
+4. Give candidates information about your organization and the role
+Give your candidates detailed information about your organization, your own position in it, and the open role’s responsibilities.
+
+For example, your organization may focus on developing web applications for clients. Or may be specialized in developing Android apps. Give your applicants sufficient information about your company early in the interview.
+
+5. Ask all candidates the same Flutter developer interview questions
+Structured interviews, in which you ask the same questions and in the same order, help you be more objective and minimize bias.
+
+Therefore, we advise you to have a predefined set of Flutter developer interview questions to use for all candidates, and try not to stray too far from these. The exception may be for follow-up interview questions.
+
+6. Take notes during the interview
+If you’re looking to interview several candidates, it can get tricky to remember all applicant responses. Take notes, but tell applicants that you will be doing so in advance.
+
+7. Use active listening skills and follow-up questions to get the right information
+Use your active listening skills to fully glean whether your candidates have the Flutter knowledge you’re looking for. Combine this with the right follow-up questions when you notice that your candidate has given a limited answer.
+
+For instance, if your candidate gives a limited response to an interview question related to processes, encourage them to answer more fully by asking a follow-up question such as, “Do you know any other uses of keys in Flutter?”. 
+
+8. Let applicants ask you questions about the role
+Give your potential hires the chance to interview you about the role. When they ask you questions, make sure you provide them with enough information to enhance the candidate experience.
+
+You may even consider offering your candidates the opportunity to ask further questions via email after the interview if they are particularly curious and enthusiastic.
+
+9. Give candidates information about the next steps
+Inform candidates about the next steps of the hiring process. For example, let them know when they will next hear from you and whether there are any other interview stages as part of the hiring process.
+
+For example, you may decide to tell your applicants the name and role of the next interviewer they will meet.
+
+10. Hire a candidate and give feedback to unsuccessful developers
+Finally, hire the best candidate and provide feedback to unsuccessful developers. After you make a hiring decision, you can already start planning for the onboarding process by considering the vital skills your team needs. 
+
+Lastly, inform unsuccessful candidates of your choice and provide them feedback based on their skills tests and the interview. This will help them improve their skills and boost the overall candidate experience you provide.
+
