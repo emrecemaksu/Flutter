@@ -1,6 +1,5 @@
 import 'package:form_field_validator/form_field_validator.dart';
 
-
 final validatedPhoneForm = MultiValidator([
   RequiredValidator(errorText: 'Phone is required'),
   MinLengthValidator(9, errorText: 'Minimum 9 numbers')
