@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+import 'package:base/main_page.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -10,17 +10,19 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   late TextEditingController _mailController;
+  late TextEditingController _passwordController;
 
   @override
   void initState() {
     super.initState();
     _mailController = TextEditingController();
+    _passwordController = TextEditingController();
   }
 
   @override
   void dispose() {
-    // TODO: implement dispose
     _mailController.dispose();
+    _passwordController.dispose();
     super.dispose();
   }
 
@@ -39,7 +41,10 @@ class _LoginPageState extends State<LoginPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const Text('Hoş Geldiniz!'),
+              const Image(
+                  image: AssetImage(
+                      'assets/images/icons8-local-delivery-time-64.png')),
+              const SizedBox(height: 20.0),
               Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: TextField(
@@ -57,11 +62,17 @@ class _LoginPageState extends State<LoginPage> {
                       labelText: 'E-Mail'),
                 ),
               ),
-              const Padding(
-                padding: EdgeInsets.all(12.0),
+              Padding(
+                padding: const EdgeInsets.all(12.0),
                 child: TextField(
+                    controller: _passwordController,
+                    onSubmitted: (value) {
+                      setState(() {
+                        _passwordController.text = value;
+                      });
+                    },
                     obscureText: true,
-                    decoration: InputDecoration(
+                    decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         prefixIcon: Icon(Icons.password),
                         labelText: 'Şifre',
@@ -69,7 +80,13 @@ class _LoginPageState extends State<LoginPage> {
               ),
               const SizedBox(height: 20),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const MainPage(),
+                      ));
+                },
                 style: ElevatedButton.styleFrom(backgroundColor: Colors.white),
                 child: const Text(
                   'Giriş Yap',
