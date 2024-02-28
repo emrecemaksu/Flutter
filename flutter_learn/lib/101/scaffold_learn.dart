@@ -31,14 +31,10 @@ class ScaffoldLearnView extends StatelessWidget {
         
       }, builder: (context) => const Text('Bottom Sheet'),),
       */
-      bottomNavigationBar: Container(
-        //height: 500, Decoration da kullanırız. Çünkü bottomNavBar Widget 
-        //Kabul ediyor. Direkt BottomNavBar kullanmak zorunda değiliz.
-        child: BottomNavigationBar(items: const [
-          BottomNavigationBarItem(label: 'Ana Sayfa', icon: Icon(Icons.home)),
-          BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Arama')
-        ]),
-      ),
+      bottomNavigationBar: BottomNavigationBar(items: const [
+        BottomNavigationBarItem(label: 'Ana Sayfa', icon: Icon(Icons.home)),
+        BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Arama')
+      ]),
     );
   }
 }

@@ -8,11 +8,28 @@ class CustomWidgetLearn extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(),
         body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Center(
+                child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: SizedBox(
+                //MediaQuery ile ekran withini aliriz.
+                width: MediaQuery.of(context).size.width,
                 child: CustomFoodButton(
-              title: _title,
+                  onPressed: () {},
+                  title: _title,
+                ),
+              ),
             )),
+            const SizedBox(
+              height: 20,
+            ),
+            Center(
+              child: CustomFoodButton(onPressed: () {
+                
+              }, title: "Pizza"),
+            )
           ],
         ));
   }
@@ -23,16 +40,17 @@ mixin _ColorUtility {
   final Color whiteColor = Colors.white;
 }
 
-class CustomFoodButton extends StatelessWidget with _ColorUtility {
-  CustomFoodButton({super.key, required this.title});
+class CustomFoodButton extends StatelessWidget with _ColorUtility, PaddingUtility {
+  CustomFoodButton({super.key, required this.title, required this.onPressed});
   final String title;
+  final void Function() onPressed;
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () {},
-      style: ElevatedButton.styleFrom(
-          backgroundColor: redColor, shape: const StadiumBorder()),
-      child: Center(
+      onPressed: onPressed,
+      style: ElevatedButton.styleFrom(backgroundColor: redColor, shape: const StadiumBorder()),
+      child: Padding(
+        padding: paddingSettings,
         child: Text(
           'Food',
           style: Theme.of(context)
@@ -45,7 +63,7 @@ class CustomFoodButton extends StatelessWidget with _ColorUtility {
   }
 }
 
-class PaddingUtility {
+mixin PaddingUtility {
   final EdgeInsets paddingSettings = const EdgeInsets.all(8.0);
   final EdgeInsets paddingSettings2x = const EdgeInsets.all(16.0);
 }

@@ -55,7 +55,8 @@ class NoteDemosApp extends StatelessWidget {
 }
 
 class _SubTitleWidget extends StatelessWidget {
-  const _SubTitleWidget({super.key, this.textAlign = TextAlign.center});
+  // ignore: unused_element
+  const _SubTitleWidget({this.textAlign = TextAlign.center});
 
   final TextAlign textAlign;
 
@@ -74,9 +75,7 @@ class _SubTitleWidget extends StatelessWidget {
 }
 
 class _TitleWidget extends StatelessWidget {
-  const _TitleWidget({
-    super.key,
-  });
+  const _TitleWidget();
 
   @override
   Widget build(BuildContext context) {

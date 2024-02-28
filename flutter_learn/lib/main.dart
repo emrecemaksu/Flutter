@@ -1,10 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_learn/101/custom_widget_learn.dart';
+import 'package:flutter_learn/101/list_view_builder.dart';
+//import 'package:flutter_learn/101/list_view_learn.dart';
+//import 'package:flutter_learn/101/card_learn.dart';
+//import 'package:flutter_learn/101/icon_learn.dart';
+//import 'package:flutter_learn/101/page_view_learn.dart';
+//import 'package:flutter_learn/101/statefull_life_cycle_learn.dart';
+//import 'package:flutter_learn/101/text_field_learn.dart';
+//import 'package:flutter_learn/demos/color_demos_view.dart';
+//import 'package:flutter_learn/demos/color_life_cycle_view.dart';
+//import 'package:flutter_learn/101/statefull_learn.dart';
+//import 'package:flutter_learn/101/column_row_learn.dart';
+//import 'package:flutter_learn/101/stack_learn.dart';
+//import 'package:flutter_learn/demos/stack_demo_view.dart';
+//import 'package:flutter_learn/101/indicator_learn.dart';
+//import 'package:flutter_learn/101/list_tile_learn.dart';
+//import 'package:flutter_learn/101/custom_widget_learn.dart';
 //import 'package:flutter_learn/101/deneme.dart';
 //import 'package:flutter_learn/101/card_learn.dart';
 //import 'package:flutter_learn/101/image_learn.dart';
-//import 'package:flutter_learn/demos/note_demos_app.dart';
+//import 'package:flutter_learn/demos/note_demos_view.dart';
 //import 'package:flutter_learn/101/color_learn.dart';
 //import 'package:flutter_learn/101/padding_learn.dart';
 //import 'package:flutter_learn/101/stateless_learn.dart';
@@ -30,9 +45,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData.light().copyWith(
-          cardTheme: CardTheme(
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20))),
+          listTileTheme: const ListTileThemeData(),
+          progressIndicatorTheme: const ProgressIndicatorThemeData(color: Colors.amber),
+          inputDecorationTheme: const InputDecorationTheme(border: OutlineInputBorder(), iconColor: Colors.black),
+          cardTheme: CardTheme(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))),
           appBarTheme: const AppBarTheme(
             centerTitle: true,
             backgroundColor: Colors.transparent,
@@ -45,7 +61,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       */
-      home: const CustomWidgetLearn(),
+      home: const ListViewBuilderLearn(),
     );
   }
 }
