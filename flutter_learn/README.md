@@ -28,3 +28,4 @@ Hareket varsa controlleri kullanmaliyiz. bknz. pageViewLear
 PageView controller ile setState kullanmayiz cünkü kendisi Statefull ile mevcut.
 Conteroller haric setState kullan Emre.
 InitState ten dolayi setState kullanmiyoruz. Zaten init state buildden once calisiyor.
+Padding içten Margin dıştan mesafe verir.
