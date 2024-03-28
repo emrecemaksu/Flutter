@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_learn/101/navigation_learn.dart';
+import 'package:flutter_learn/202/model_learn_view.dart';
+//import 'package:flutter_learn/101/navigation_learn.dart';
+import 'package:flutter_learn/202/tab_learn.dart';
 //import 'package:flutter_learn/101/list_view_builder.dart';
 //import 'package:flutter_learn/demos/my_collections_demos.dart';
 //import 'package:flutter_learn/101/list_view_learn.dart';
@@ -63,7 +65,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       */
-      home: const NavigationPage(),
+      home: const ModelLearnView(),
     );
   }
 }

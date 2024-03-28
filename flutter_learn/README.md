@@ -29,3 +29,5 @@ PageView controller ile setState kullanmayiz cünkü kendisi Statefull ile mevcu
 Conteroller haric setState kullan Emre.
 InitState ten dolayi setState kullanmiyoruz. Zaten init state buildden once calisiyor.
 Padding içten Margin dıştan mesafe verir.
+Database e doğrudan erişip veri yazabilir miyim? Hayır tehlikeli.
+Bana database için api veya servis verilmesi lazım.
