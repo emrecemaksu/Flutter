@@ -40,6 +40,7 @@ class _PasswordTextFieldState extends State<PasswordTextField> {
         firstChild: const Icon(Icons.visibility),
         secondChild: const Icon(Icons.visibility_off_outlined),
         crossFadeState: _isVisible ? CrossFadeState.showFirst : CrossFadeState.showSecond,
+        //Duration için bütün projede kullanılacağı için Duration sınıfa yap ordan getir.
         duration: const Duration(milliseconds: 500),
       ),
       onPressed: () {

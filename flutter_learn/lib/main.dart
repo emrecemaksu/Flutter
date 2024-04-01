@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_learn/202/package_learn_view.dart';
-import 'package:flutter_learn/202/service/service_get_learn_view.dart';
+import 'package:flutter_learn/202/form_learn_view.dart';
 import 'package:flutter_learn/202/theme/light_theme.dart';
-import 'package:flutter_learn/202/theme_learn_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +36,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       */
-      home: const ThemeLearnView(),
+      home: const FormLearnView(),
     );
   }
 }

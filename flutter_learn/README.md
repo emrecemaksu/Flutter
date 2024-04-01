@@ -48,3 +48,10 @@ Native den kasıt Android: Gradle IOS: CocoaPods
 Paketi neden kullandığını üstünde belirt.
 Ekran çizimlerinde ilgili sınıf extends edilmelidir. extends TickerProviderStateMixin
 Paketleri dışarı çıkar. Başkası kullanırken okuması zor olur.
+Abstract classlar test etmeye elverişli hale getirir.
+Implements yaparken üst sınıftaki bütün metodları override ederiz ancak extends yaparken moetodu almasak da olur.
+Mixinleri daha çok mixin mixin_name on şeklinde kullanırız.
+Implements de with olmaz.
+Basit state yönetimi state_manage klasöründe. Abstract sınıftan statei yönetiyoruz. !!!
+Key ler ile unique widgetlar oluşturabiliriz. Karmaşıklığı önleriz.
+?? bu işaret null geliyor ise şu değeri al şeklinde kullanılır.
