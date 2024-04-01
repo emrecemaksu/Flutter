@@ -40,14 +40,13 @@ class FileItem {
   FileItem(this.name, this.file);
 }
 
-mixin SharedMixin on IFileDownload{
+mixin SharedMixin on IFileDownload {
   void toShowFile() {}
 }
 
-class InstagramDownload extends IFileDownload with SharedMixin{
+class InstagramDownload extends IFileDownload with SharedMixin {
   @override
   bool? downloadItem(FileItem? fileItem) {
-    // TODO: implement downloadItem
     throw UnimplementedError();
   }
 }

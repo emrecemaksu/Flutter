@@ -55,3 +55,4 @@ Implements de with olmaz.
 Basit state yönetimi state_manage klasöründe. Abstract sınıftan statei yönetiyoruz. !!!
 Key ler ile unique widgetlar oluşturabiliriz. Karmaşıklığı önleriz.
 ?? bu işaret null geliyor ise şu değeri al şeklinde kullanılır.
+Shared Preferences için de model oluştur.
