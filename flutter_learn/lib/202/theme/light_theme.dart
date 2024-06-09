@@ -9,7 +9,7 @@ class LightTheme {
     themeData = ThemeData(
         scaffoldBackgroundColor: Colors.white.withOpacity(0.9),
         floatingActionButtonTheme: const FloatingActionButtonThemeData(backgroundColor: Colors.green),
-        checkboxTheme: const CheckboxThemeData(fillColor: MaterialStatePropertyAll(Colors.green)),
+        checkboxTheme: const CheckboxThemeData(fillColor: WidgetStatePropertyAll(Colors.green)),
         appBarTheme: AppBarTheme(
             backgroundColor: _lightColor.biscayGreen,
             shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(bottom: Radius.circular(20)))),

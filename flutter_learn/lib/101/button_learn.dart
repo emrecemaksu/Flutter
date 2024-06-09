@@ -12,9 +12,9 @@ class ButtonLearn extends StatelessWidget {
         TextButton(
           onPressed: () {},
           style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.resolveWith(
+            backgroundColor: WidgetStateProperty.resolveWith(
               (states) {
-                if (states.contains(MaterialState.pressed)) {
+                if (states.contains(WidgetState.pressed)) {
                   return Colors.green;
                 }
                 return null;

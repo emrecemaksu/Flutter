@@ -29,7 +29,7 @@ class NoteDemosApp extends StatelessWidget {
                 onPressed: () {},
                 style: ButtonStyle(
                     backgroundColor:
-                        MaterialStateProperty.all(Colors.lightBlue)),
+                        WidgetStateProperty.all(Colors.lightBlue)),
                 child: SizedBox(
                     height: ButtonHeight().buttonHeight,
                     child: Center(
