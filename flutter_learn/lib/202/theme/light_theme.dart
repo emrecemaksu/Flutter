@@ -7,17 +7,25 @@ class LightTheme {
   LightTheme() {
     _LightColor();
     themeData = ThemeData(
+        // ignore: deprecated_member_use
         scaffoldBackgroundColor: Colors.white.withOpacity(0.9),
-        floatingActionButtonTheme: const FloatingActionButtonThemeData(backgroundColor: Colors.green),
-        checkboxTheme: const CheckboxThemeData(fillColor: WidgetStatePropertyAll(Colors.green)),
+        floatingActionButtonTheme:
+            const FloatingActionButtonThemeData(backgroundColor: Colors.green),
+        checkboxTheme: const CheckboxThemeData(
+            fillColor: WidgetStatePropertyAll(Colors.green)),
         appBarTheme: AppBarTheme(
             backgroundColor: _lightColor.biscayGreen,
-            shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(bottom: Radius.circular(20)))),
+            shape: const RoundedRectangleBorder(
+                borderRadius:
+                    BorderRadius.vertical(bottom: Radius.circular(20)))),
         buttonTheme: ButtonThemeData(
-            colorScheme: ColorScheme.light(onPrimary: Colors.purple, onSecondary: _lightColor.biscayGreen)),
+            colorScheme: ColorScheme.light(
+                onPrimary: Colors.purple,
+                onSecondary: _lightColor.biscayGreen)),
         colorScheme: const ColorScheme.light(),
-        textTheme:
-            ThemeData.light().textTheme.copyWith(titleMedium: TextStyle(fontSize: 20, color: _lightColor._textColor)));
+        textTheme: ThemeData.light().textTheme.copyWith(
+            titleMedium:
+                TextStyle(fontSize: 20, color: _lightColor._textColor)));
   }
 }
 

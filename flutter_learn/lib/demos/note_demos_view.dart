@@ -28,8 +28,7 @@ class NoteDemosApp extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {},
                 style: ButtonStyle(
-                    backgroundColor:
-                        WidgetStateProperty.all(Colors.lightBlue)),
+                    backgroundColor: WidgetStateProperty.all(Colors.lightBlue)),
                 child: SizedBox(
                     height: ButtonHeight().buttonHeight,
                     child: Center(
@@ -55,7 +54,7 @@ class NoteDemosApp extends StatelessWidget {
 }
 
 class _SubTitleWidget extends StatelessWidget {
-  // ignore: unused_element
+  // ignore: unused_element, unused_element_parameter
   const _SubTitleWidget({this.textAlign = TextAlign.center});
 
   final TextAlign textAlign;
